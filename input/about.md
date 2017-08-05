@@ -1,3 +1,3 @@
 Title: About Me
 ---
-I'm awesome!
+Python developer by day, .NET developer by night.
