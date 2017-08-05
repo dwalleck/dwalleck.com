@@ -1,0 +1,8 @@
+#recipe Blog
+
+// Customize your settings and add new ones here
+Settings[Keys.Host] = "dwalleck.com";
+Settings[BlogKeys.Title] = "Daryl Walleck";
+Settings[BlogKeys.Description] = "The personal blog of Daryl Walleck";
+
+// Add any pipeline customizations here
