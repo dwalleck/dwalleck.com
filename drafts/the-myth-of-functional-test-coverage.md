@@ -1,0 +1,4 @@
+Unit tests test functions and classes while functional tests test user scenarios. Unit test coverage refers to how many of paths within functions and classes have been covered. It is not a stretch from there to state that functional test coverage should measure number of paths/branches of system behavior that are covered. Functional tests should **never** be used to replace unit test coverage. The only possible case I can imagine would be when developing the functional test would be much less effort than writing the unit test (or if the case is impossible to replicate in a unit test, maybe if it had dependencies on the underlying OS that would be hard to mock)
+
+When thinking about functional test coverage, the first question you should
+ask is "why? what is the question I'm trying to answer?" and not "how much?"
