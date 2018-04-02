@@ -4,7 +4,7 @@ When you're focused on results and delivery, it's easy to want to write these te
 
 **A significant number of critical defects I've discovered (working on OpenStack) came from "flaky" test failures. Flaky test failures have helped me identify memory leaks, race conditions, and insufficient resources (not enough memory allocated for MySQL**
 
-It's also been a lesson in poor/unreliable test patterns, which is a whole other topic in itself. 
+It's also been a lesson in poor/unreliable test patterns, which is a whole other topic in itself.
 
 The cause of flaky or unstable tests can vary wildly. Sometimes you might be testing a workflow that needed *just* a second or more to complete. Sometimes the test is poorly designed, relying on data that may or may not exist at runtime. The most frustrating case is when the test failure appears to be legitimate, but is not immediately reproducible.
 
