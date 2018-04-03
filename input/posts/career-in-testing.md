@@ -33,6 +33,10 @@ You’ll learn CI and infrastructure tools. For the first 3-4 years of my career
 
 Wait, where did this one come from?
 
+# You'll learn about source control and configuration management
+
+Use Git. Never check-in credentials. Get smart about storing your secrets.
+
 # You'll learn how to be a better communicator
 
 More than just filing bug reports, you'll learn how to better communicate with
@@ -41,7 +45,18 @@ cringe at the site of a tester on approach to their desk. A visit from us either
 means "something is broken" or "I don't understand how this feature works".
 Either way, it's a disruption to whatever that person was doing at the moment.
 While you don't have to try to make those interactions more positive, it
-certainly helps to not gleefully 
+certainly helps to not gleefully skip over to their desk and delight into
+telling them all the wonderful ways that you've broken their code. First, if for
+no other reasons, it perpetuates the sterotype that testers are simply bug
+finders. Do you just find bugs? No. Then represent yourself in a way that
+reflects that capability. If you're going to interupt someones workflow, respect
+their time and come prepared.
+
+If you're unsure about how a feature works, be prepared to tell that person what
+you've tried. "I tried x, y, and z but didn't get the expected behavior" will
+always go over than "I don't get it". That's not to say that there won't be
+times that you won't need someone to walk you through a feature from step 1, but
+try to make those cases the exception and not the rule.
 
 ## You'll learn how to file great bug reports
 
@@ -88,3 +103,34 @@ a great deal of domain knowledge to test. This can create a more steep learning
 when onboarding, but you'll leave the project far more knowledgable about a
 domain than when you started.
 
+# You'll become a developer
+
+(if you do all the other things)
+
+But wait, didn't I start with saying what you'd learn by becoming a tester? Yes,
+but I wanted to make this point clear: any tester working with code *is* a
+developer. Not only will you write and manage your own code, but you will also
+have the opportunity to observe the way the developers on the team implement
+features. I don't like to think of testers as something seperate from
+developers. Rather, I'd like to think of testers as a subset of developers.
+Every tester has the potential to be an application developer given the right
+experience. Inversely, every developer *should* have the same experience and
+capabilities as any given tester. Depending on the project I've acted as a
+tester, a developer, or both roles. Being a strong tester isn't a weakness: it's
+an amazing strength. As I mentioned at the start, not all developers are great
+at writing automated tests. Also, not all teams have the advantage/opportunity/choice
+of having a dedicated test team. Does that mean automated testing doesn't get
+done? Of course not! That work still has to be done, and having a knack for the
+testing domain will never hurt career advancement. Does this mean that all
+testers should become developers? Of course not! We all have our own goals in
+our careers, and we must find our own paths. Some people will become obsessed
+with application quality and become lifetime testers. Others may become
+interested in CI pipelines and deployments and follow a DevOps path.\
+
+Others, like myself when I started this story, will want to make the transition
+in time from testers to developers. And that's just fine. It's not a graduation
+as much as it is a transition. You won't be leaving your past behind; you'll be
+taking those lessons with you as you turn your focus in another direction. As I
+said, not all developers are great testers. You'll have a leg up on some of your
+colleagues who think testing "isn't their problem". You'll know how to talk to
+your team, especially your testers, as new features come up to be tested.
