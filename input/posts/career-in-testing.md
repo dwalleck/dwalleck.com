@@ -15,35 +15,35 @@ share my experiences to help better answer the question: "Why testing?"
 
 To be clear, as a bright-eyed soon-to-be college grad I had no intention of
 starting my career as a software tester. I had grand ambitions of
-building...something, but software testing wasn’t anywhere on my radar. So of
+building...something, but software testing wasn't anywhere on my radar. So of
 course that meant, as many unsure college grads do, that I ended up with QA as
 my first role. And I was angry. "These people don't respect my ability to code!
-They must think I’m awful! Or I must be awful..." was the line of thinking I had
+They must think I'm awful! Or I must be awful..." was the line of thinking I had
 for my first year on the job. I kept these thoughts to myself until my first
 yearly review, at which time I laid out my well thought out argument about why I
 thought I was being misused and how I needed to be transitioned to a developer
-position immediately. I clearly remember the mixed look of confusion and
-frustration on my manager’s face as I wrapped up my monologue, at which I was
-now expecting to hear all the awful things that I was afraid my peers and
+role immediately. I clearly remember the mixed look of confusion and
+frustration on my manager's face as I wrapped up my monologue, at which time I
+was now expecting to hear all the awful things that I feared my peers and
 leaders had been thinking all year. I can't remember his exact words anymore,
 but his reply was essentially "You're an idiot/You're not getting it all. We're
 not trying to hold you back. We're keeping you in testing *because you’re actually really good at it*!".
 
 Armed we this new knowledge, I sheepishly thanked my boss and went home to
 ponder this new information. "Good at software testing? What in the world do I
-do now? Am I never going to be a real software developer?" I could go on for
+do now? Am I ever going to become a real software developer?" I could go on for
 hours describing the levels of self-doubt I had, but after talking with my
 leaders more and getting assurances I was going to still be a "real" software
-developer, I let go of the doubt and dived into my career. Still, it was hard
-because none of my peers had experienced being a long-term testers, so I had no
-idea of what to expect. That’s why now, for those who might be 12 years behind
-me, I’d like to give you an idea of what you might be able to expect.
+developer, I let go of the doubt and dived into my career. Still, it was
+difficult because none of my peers had experienced being a long-term testers, so
+I had no idea if their promises would work out in the long run. That’s why now,
+for those who might be 12 years behind me, I’d like to give you an idea of what
+you might be able to expect.
 
 # You’ll learn how to write great automated tests
 
-You’ll learn how to write great automated tests. This may seem like the most
-obvious item of the list, but it's also the most critical. It’s your primary
-role, right? And doesn’t every developer have to write automated tests anyway?
+This may seem like the obvious of expectations, but it's also the most critical.
+It’s your primary role, right? And doesn’t every developer have to write automated tests anyway?
 First off, no, not every developer writes many tests. Most importantly, not all
 developers write good automated tests. The funny thing is, it turns out that
 writing good tests is hard. Really hard. Anyone can write a few dozen tests
@@ -54,14 +54,25 @@ set of concerns. Logging, configuration management, data access. All of those
 get by, but what about the next dozen projects you work on? Do you really want
 to write all that code again? Which brings me to...
 
+Good automated tests are:
+
+- as reliable as possible
+- as timely as possible
+- provide clear feedback
+
+# You'll learn about source control and configuration management
+
+Use Git. Never check-in credentials. Get smart about storing your secrets.
+
 # You’ll become a great library author
 
-You'll become a great library author. All that config management stuff? Package
-that up as a library to us again later. Wrapped some http clients with logging?
-New package. Wrote some helpful decorators? New package. And all of those
-libraries need the same love as any other library, which means tests (testing
-your test code? Inconceivable!), CI, docs, packaging, and examples. Sure, you
-can get away with just copying code between projects, but do you really want to?
+You'll become a great library author. Sure, you could get away with just copying
+code between projects, but do you really want to? All that config management
+stuff? Packagecthat up as a library to us again later. Wrapped some http clients
+with logging? New package. Wrote some helpful decorators? New package. And all
+of those libraries need the same love and care as any other library, which means
+tests (testing your test code? Inconceivable!), CI, docs, packaging, and
+good examples.
 
 # You’ll learn CI and infrastructure tools
 
@@ -77,13 +88,10 @@ Kubernetes, Ansible, or whatever tools you need. But it could be all on you.
 
 - configuration management
 
-# You’ll get really good at parsing and outputting files
+# You might learn a bit about data analytics
 
-Wait, where did this one come from?
+You’ll get really good at parsing and outputting files. Wait, where did this one come from?
 
-# You'll learn about source control and configuration management
-
-Use Git. Never check-in credentials. Get smart about storing your secrets.
 
 # You'll learn how to be a better communicator
 
